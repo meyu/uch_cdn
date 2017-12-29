@@ -1,0 +1,86 @@
+
+* {
+    font-family: "Noto Sans TC", sans-serif;
+}
+
+html, body, form {
+    height: 100vh;
+    background-color: rgb(246,247,249);
+}
+
+header {
+    height: 23%;
+    color: white;
+    text-align: center;
+}
+
+#system_title {
+    display: block;
+}
+
+main fieldset {
+    margin: 0 auto;
+}
+
+#input_account {
+    text-align: center;
+    margin-top: 2em;
+}
+
+#input_password {
+    text-align: center;
+    margin: 0.5em 0;
+}
+
+@media (min-width: 576px) {
+    header {
+        padding-top: 1.5em;
+        background: linear-gradient(175deg, rgba(44,145,169,0.99) 78%, rgba(44,145,169,0) 78.05%), linear-gradient(5deg, rgba(44,145,169,0) 22.6%, rgba(44,145,169,0.99) 22.65%);
+    }
+
+    #logo_uch {
+        font-size: 5.5em;
+    }
+
+    #system_title {
+        font-size: 2em;
+        font-weight: 300;
+    }
+}
+
+@media (max-width: 576px) {
+    header {
+        padding-top: 2em;
+        background: linear-gradient(160deg, rgba(44,145,169,0.99) 68%, rgba(44,145,169,0) 68.05%), linear-gradient(20deg, rgba(44,145,169,0) 32%, rgba(44,145,169,0.99) 32.05%);
+    }
+
+    #logo_uch {
+        font-size: 3.5em;
+    }
+
+    #system_title {
+        font-size: 1.5em;
+        font-weight: 100;
+    }
+}
+
+@media (max-height: 677px) {
+    header {
+        padding-top: 1em;
+    }
+
+    #logo_uch {
+        font-size: 3em;
+    }
+}
+@media (max-height: 600px) {
+    #logo_uch {
+        display: none !important;
+    }
+}
+
+@media (min-height: 1100px) {
+    header {
+        height: 15%;
+    }
+}

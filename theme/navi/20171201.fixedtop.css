@@ -1,0 +1,29 @@
+﻿/* 將標頭及選單置頂 */
+#site_info_header {
+    position: fixed;
+    top: 0;
+}
+
+nav {
+    top: 6.4rem;
+    position: fixed !important;
+    right: 0;
+    left: 0;
+}
+
+body {
+    margin-top: 9.8rem;
+}
+
+/*小螢幕時，減縮置頂內容*/
+@media (max-width: 65rem) {
+
+    nav {
+        top: 4.5rem;
+    }
+
+    body {
+        margin-top: 7.9rem;
+    }
+
+}

@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'uch';
+  src:
+    url('//aps4.uch.edu.tw/cdn/fonts/logo_uch/20171201.ttf?mwl9q6') format('truetype'),
+    url('//aps4.uch.edu.tw/cdn/fonts/logo_uch/20171201.woff?mwl9q6') format('woff'),
+    url('//aps4.uch.edu.tw/cdn/fonts/logo_uch/20171201.svg?mwl9q6#uch') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.icon {
+  font-family: 'uch' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-uchlogo:before {
+  content: "\e900";
+}

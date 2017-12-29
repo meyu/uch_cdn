@@ -1,0 +1,18 @@
+﻿#no_ie {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10000;
+
+    font-size: 1.6em;
+    color: white;
+    background-color: dodgerblue;
+
+    padding: 50px;
+}
+
+    #no_ie:after {
+        content: "您的瀏覽器已不再支援，請改用其它瀏覽器，如：Chrome、Firefox、Edge，謝謝配合。";
+    }
