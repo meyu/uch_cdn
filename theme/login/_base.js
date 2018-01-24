@@ -1,4 +1,4 @@
-﻿//適用於 Bootstrap v4.0.0-beta.3
+﻿//適用於 Bootstrap v4.0.0
 
 var js_4_bootstrap = document.getElementById("js_4_bootstrap");
 
@@ -9,7 +9,7 @@ js_4_bootstrap.appendChild(popperJS);
 
 var bootstrapJS = document.createElement("script");
 bootstrapJS.type = "application/javascript";
-bootstrapJS.src = "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js";
+bootstrapJS.src = "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js";
 js_4_bootstrap.appendChild(bootstrapJS);
 
 //執行於頁面顯示時
