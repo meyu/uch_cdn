@@ -2,6 +2,7 @@
     font-family: 'Microsoft YaHei', "Noto Sans TC", sans-serif;
     font-weight: 300;
 }
+
 nav {
     margin-bottom: 1.4rem;
 }
@@ -40,6 +41,7 @@ nav {
     float: right;
     padding-top: 1.3rem;
 }
+
 #site_user_nameyou, #site_user_contact, #site_user_signout {
     float: left;
     width: 5rem;
@@ -47,18 +49,22 @@ nav {
     line-height: 1rem;
     text-overflow: ellipsis;
     overflow: hidden;
+}
+#site_user_contact, #site_user_signout {
     cursor: pointer;
 }
+
 /* 文字 */
 #site_user_info span {
     white-space: nowrap;
     font-size: 0.9rem;
 }
 /* 圖示 */
-#site_user_info .material-icons {
+#site_user_info svg {
     z-index: 10000000;
     display: block;
-    font-size: 2.7rem;
+    margin: 2px auto;
+    font-size: 2.6rem;
     -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
     box-shadow: 0 0 1px transparent;
@@ -67,14 +73,11 @@ nav {
     -webkit-transition-property: transform;
     transition-property: transform;
 }
-    #site_user_info .material-icons:hover {
+
+    #site_user_info svg:hover {
         -webkit-transform: scale(1.1);
         transform: scale(1.1);
     }
-/* 個人提示 */
-#site_user_nameyou {
-    cursor: default;
-}
 
 
 
@@ -108,6 +111,7 @@ nav {
 .dropdown-item:hover {
     color: #24A3B7;
 }
+
 .dropdown-item.active, .dropdown-item:active {
     background-color: #24A3B7;
     color: white;
@@ -125,16 +129,19 @@ nav {
         display: none;
     }
 }
+
 @media (min-width: 768px) {
     .navbar-brand {
         display: none;
     }
 }
+
 @media (max-width: 767px) and (min-width: 576px) {
     #site_info_header .container {
         padding-left: 0;
     }
 }
+
 @media (max-width: 767px) {
     #site_info_header .container {
         padding-right: 0;
@@ -146,20 +153,22 @@ nav {
         height: 4.5rem;
         font-weight: 100;
     }
+
     #logo_uch {
         top: 0;
         font-size: 3.5rem;
     }
+
     #site_title {
         font-size: 1.7rem;
         padding-top: 1.1rem;
     }
+
     #site_user_info {
         padding-top: 0.6rem;
     }
-    #site_user_info .material-icons {
-        font-size: 2.2rem;
-    }
+
+        #site_user_info svg {
+            font-size: 2.2rem;
+        }
 }
-
-
