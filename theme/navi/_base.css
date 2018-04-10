@@ -1,12 +1,12 @@
-/*¾A¥Î©ó Bootstrap v4.0.0*/
+ï»¿/*é©ç”¨æ–¼ Bootstrap v4.0.0*/
 
-/*¥~³¡®M¥ó*/
-@import url(//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css);
-@import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
+/*å¤–éƒ¨å¥—ä»¶*/
+@import url(//www.uch.edu.tw/cdn/css/bootstrap/bootstrap-4.0.0.min.css);
+@import url(//www.uch.edu.tw/cdn/fonts/google_fonts/noto_sans_tc/v1/notosanstc.css);
 
-/*¼Ëª©*/
-@import url(//aps4.uch.edu.tw/cdn/theme/navi/20171201.css);
+/*æ¨£ç‰ˆ*/
+@import url(//www.uch.edu.tw/cdn/theme/navi/20171201.css);
 
-/*¤º³¡®M¥ó*/
-@import url(//aps4.uch.edu.tw/cdn/fonts/logo_uch/20171201.css);
-@import url(//aps4.uch.edu.tw/cdn/css/no_script/20171201.css);
+/*å…§éƒ¨å¥—ä»¶*/
+@import url(//www.uch.edu.tw/cdn/fonts/logo_uch/20171201.css);
+@import url(//www.uch.edu.tw/cdn/css/no_script/20171201.css);

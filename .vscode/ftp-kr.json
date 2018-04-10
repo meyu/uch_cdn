@@ -1,0 +1,20 @@
+{
+    "host": "120.124.96.180",
+    "username": "meyu",
+    "password": "test@123123",
+    "remotePath": "/home/meyu/cdn",
+    "protocol": "sftp",
+    "port": 22,
+    "fileNameEncoding": "utf8",
+    "autoUpload": false,
+    "autoDelete": true,
+    "autoDownload": false,
+    "ignore": [
+        "/.git",
+        "/.vscode",
+        "/.vs",
+        "/.svn",
+        "/App_Data"
+    ],
+    "ignoreWrongFileEncoding": false
+}

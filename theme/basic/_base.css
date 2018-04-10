@@ -1,12 +1,12 @@
 ﻿/*適用於 Bootstrap v4.0.0*/
 
 /*外部套件*/
-@import url(//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css);
-@import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
+@import url(//www.uch.edu.tw/cdn/css/bootstrap/bootstrap-4.0.0.min.css);
+@import url(//www.uch.edu.tw/cdn/fonts/google_fonts/noto_sans_tc/v1/notosanstc.css);
 
 /*內部套件*/
-@import url(//aps4.uch.edu.tw/cdn/fonts/logo_uch/20171201.css);
-@import url(//aps4.uch.edu.tw/cdn/css/no_script/20171201.css);
+@import url(//www.uch.edu.tw/cdn/fonts/logo_uch/20171201.css);
+@import url(//www.uch.edu.tw/cdn/css/no_script/20171201.css);
 
 * {
     font-family: 'Microsoft YaHei', "Noto Sans TC", sans-serif;

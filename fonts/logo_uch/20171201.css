@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'uch';
   src:
-    url('//aps4.uch.edu.tw/cdn/fonts/logo_uch/20171201.ttf?mwl9q6') format('truetype'),
-    url('//aps4.uch.edu.tw/cdn/fonts/logo_uch/20171201.woff?mwl9q6') format('woff'),
-    url('//aps4.uch.edu.tw/cdn/fonts/logo_uch/20171201.svg?mwl9q6#uch') format('svg');
+    url('//www.uch.edu.tw/cdn/fonts/logo_uch/20171201.ttf?mwl9q6') format('truetype'),
+    url('//www.uch.edu.tw/cdn/fonts/logo_uch/20171201.woff?mwl9q6') format('woff'),
+    url('//www.uch.edu.tw/cdn/fonts/logo_uch/20171201.svg?mwl9q6#uch') format('svg');
   font-weight: normal;
   font-style: normal;
 }

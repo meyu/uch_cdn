@@ -4,23 +4,22 @@ var js_4_bootstrap = document.getElementById("js_4_bootstrap");
 
 var popperJS = document.createElement("script");
 popperJS.type = "application/javascript";
-popperJS.src = "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js";
+popperJS.src = "https://www.uch.edu.tw/cdn/js/popper/popper-1.12.9.min.js";
 js_4_bootstrap.appendChild(popperJS);
 
 var bootstrapJS = document.createElement("script");
 bootstrapJS.type = "application/javascript";
-bootstrapJS.src = "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js";
+bootstrapJS.src = "https://www.uch.edu.tw/cdn/js/bootstrap/bootstrap-4.0.0.min.js";
 js_4_bootstrap.appendChild(bootstrapJS);
 
 var fontawesomeJS = document.createElement("script");
 fontawesomeJS.type = "application/javascript";
-fontawesomeJS.src = "https://use.fontawesome.com/releases/v5.0.8/js/all.js";
+fontawesomeJS.src = "https://www.uch.edu.tw/cdn/js/font_awesome/fontawesome-5.0.9.js";
 js_4_bootstrap.appendChild(fontawesomeJS);
 
 
 //執行於頁面顯示時
 function onpageshow() {
-
    
     // 產生資訊圖標
     var logo_uch = document.getElementById("logo_uch");
