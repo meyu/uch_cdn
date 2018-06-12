@@ -2,3 +2,5 @@
 .vs
 app_offline.htm
 *.sln
+.vscode/ftp-kr.sync.cache.json
+.vscode

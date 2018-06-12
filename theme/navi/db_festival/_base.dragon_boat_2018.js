@@ -20,7 +20,7 @@ js_4_bootstrap.appendChild(fontawesomeJS);
 
 //執行於頁面顯示時
 function onpageshow() {
-   
+
     // 產生資訊圖標
     var logo_uch = document.getElementById("logo_uch");
     var site_user_contact = document.getElementById("site_user_contact");
@@ -40,10 +40,10 @@ function onpageshow() {
     var rr = Math.floor((Math.random() * 100) + 1);
 
     // 粽子無字
-    if (rr < 25) {
+    if (rr < 30) {
         site_info_header.style.backgroundColor = "#FBB03B";
         logo_uch.innerHTML = ""
-        zongzi.src = "https://www.uch.edu.tw/cdn/theme/navi/db_festival/rise.gif";
+        zongzi.src = "/rise.gif";
         zongzi.style.position = "absolute";
         zongzi.style.top = "-10px";
         zongzi.style.left = "-25px";
@@ -52,10 +52,10 @@ function onpageshow() {
     }
 
     // 粽子有字
-    if (rr >= 25 && rr < 50) {
+    if (rr >= 30 && rr < 60) {
         site_info_header.style.backgroundColor = "#FBB03B";
         logo_uch.innerHTML = ""
-        zongzi.src = "https://www.uch.edu.tw/cdn/theme/navi/db_festival/sese.gif";
+        zongzi.src = "/sese2.gif";
         zongzi.style.position = "absolute";
         zongzi.style.top = "-5px";
         zongzi.style.left = "-15px";
@@ -64,15 +64,16 @@ function onpageshow() {
     }
 
     // 龍舟
-    if (rr >= 50) {
+    if (rr >= 60) {
         site_info_header.style.backgroundColor = "#29ABE2";
         boat.id = "dragon_boat"
-        boat.src = "https://www.uch.edu.tw/cdn/theme/navi/db_festival/boat.gif";
+        boat.src = "/boat.gif";
         boat.style.position = "absolute";
         boat.style.top = "8px";
+        boat.style.zIndex = -10;
         boat.style.height = "90px";
         site_title.appendChild(boat);
     }
-
+        
 }
 
