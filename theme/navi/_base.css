@@ -10,35 +10,3 @@
 /*內部套件*/
 @import url(//www.uch.edu.tw/cdn/fonts/logo_uch/20171201.css);
 @import url(//www.uch.edu.tw/cdn/css/no_script/20171201.css);
-
-
-
-/*******************************
-端午主題
-*******************************/
-#dragon_boat{
-    transform:rotate(-5deg);
-    animation-name:boatSail;
-    animation-duration:1s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    animation-timing-function: ease-in-out;
-  }
-
-@keyframes boatSail{
-    0%{
-      transform:rotate(3deg) translate(10px,-2px);
-    }
-    100%{
-      transform:rotate(-3deg) translate(-5px);
-    }
-  }
-  
-
-/*縮小標頭元素*/
-@media (max-width: 1040px) {
-    #dragon_boat {
-        top: 10px !important;
-        height: 60px !important;
-    }
-}

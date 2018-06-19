@@ -17,7 +17,6 @@ fontawesomeJS.type = "application/javascript";
 fontawesomeJS.src = "https://www.uch.edu.tw/cdn/js/font_awesome/fontawesome-5.0.10.js";
 js_4_bootstrap.appendChild(fontawesomeJS);
 
-
 //執行於頁面顯示時
 function onpageshow() {
    
@@ -29,50 +28,4 @@ function onpageshow() {
     site_user_contact.innerHTML = "<i class='far fa-comments fa-fw'></i><span>聯絡我們</span>";
     site_user_signout.innerHTML = "<i class='fas fa-sign-out-alt fa-fw'></i><span>登出</span>";
 
-    /////////////////////////////
-    // 端午主題
-    /////////////////////////////
-    var site_info_header = document.getElementById("site_info_header");
-    var site_title = document.getElementById("site_title");
-    var zongzi = document.createElement("img");
-    var boat = document.createElement("img");
-
-    var rr = Math.floor((Math.random() * 100) + 1);
-
-    // 粽子無字
-    if (rr < 25) {
-        site_info_header.style.backgroundColor = "#FBB03B";
-        logo_uch.innerHTML = ""
-        zongzi.src = "https://www.uch.edu.tw/cdn/theme/navi/db_festival/rise.gif";
-        zongzi.style.position = "absolute";
-        zongzi.style.top = "-10px";
-        zongzi.style.left = "-25px";
-        zongzi.style.height = "110px";
-        logo_uch.appendChild(zongzi);
-    }
-
-    // 粽子有字
-    if (rr >= 25 && rr < 50) {
-        site_info_header.style.backgroundColor = "#FBB03B";
-        logo_uch.innerHTML = ""
-        zongzi.src = "https://www.uch.edu.tw/cdn/theme/navi/db_festival/sese.gif";
-        zongzi.style.position = "absolute";
-        zongzi.style.top = "-5px";
-        zongzi.style.left = "-15px";
-        zongzi.style.height = "100px";
-        logo_uch.appendChild(zongzi);
-    }
-
-    // 龍舟
-    if (rr >= 50) {
-        site_info_header.style.backgroundColor = "#29ABE2";
-        boat.id = "dragon_boat"
-        boat.src = "https://www.uch.edu.tw/cdn/theme/navi/db_festival/boat.gif";
-        boat.style.position = "absolute";
-        boat.style.top = "8px";
-        boat.style.height = "90px";
-        site_title.appendChild(boat);
-    }
-
 }
-
