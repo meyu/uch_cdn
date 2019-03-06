@@ -16,5 +16,5 @@
         "/.svn",
         "/App_Data"
     ],
-    "ignoreWrongFileEncoding": false
+    "ignoreWrongFileEncoding": true
 }
