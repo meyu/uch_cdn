@@ -1,13 +1,12 @@
-﻿/*適用於 Bootstrap v4.1.0*/
+﻿/*適用於 Bootstrap v4.3.1*/
 
 /*外部套件*/
-@import url(//www.uch.edu.tw/cdn/css/bootstrap/bootstrap-4.1.0.min.css);
-@import url(//www.uch.edu.tw/cdn/fonts/google_fonts/noto_sans_tc/v1/notosanstc.css);
+@import url(//www.uch.edu.tw/cdn/css/bootstrap/bootstrap-4.3.1.min.css);
+@import url(//www.uch.edu.tw/cdn/fonts/google_fonts/noto_sans_tc/v2/notosanstc.css);
 
 /*樣版*/
 @import url(//www.uch.edu.tw/cdn/theme/login/20171201.css);
 
 /*內部套件*/
-@import url(//www.uch.edu.tw/cdn/fonts/logo_uch/20171201.css);
+@import url(//www.uch.edu.tw/cdn/fonts/logo_uch/20190306.css);
 @import url(//www.uch.edu.tw/cdn/css/no_script/20171201.css);
-
